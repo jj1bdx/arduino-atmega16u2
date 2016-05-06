@@ -1,4 +1,4 @@
-# Arduino 16u2 USB chip firmware
+# Arduino ATmega16U2 USB chip firmware
 
 ## Sources
 
@@ -24,14 +24,14 @@
 
 See <https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/firmwares/atmegaxxu2/README.txt>
 
-## Arduino Uno and Mega 2560 Firmwares for the ATmega8U2
+## Arduino Uno and Mega 2560 Firmwares for the ATmega16U2
 
-This directory contains the firmwares used on the ATmega8U2 on the Arduino
+This directory contains the firmwares used on the ATmega16U2 on the Arduino
 Uno and Arduino Mega 2560.  The arduino-usbdfu directory contains the DFU
-bootloader on the 8U2; the arduino-usbserial directory contains the actual
+bootloader on the 16U2; the arduino-usbserial directory contains the actual
 usb to serial firmware.  Both should be compiled against LUFA 100807.  The
 two .hex files in this directory combine the dfu and serial firmwares into
-a single file to burn onto the 8U2.  
+a single file to burn onto the 16U2.  
 
 To burn (Uno):
 

@@ -1,6 +1,6 @@
 # Arduino USB DFU bootloader
 
-To setup the project and program an ATMEG8U2 with the Arduino USB DFU bootloader:
+To setup the project and program an ATmega16u2 with the Arduino USB DFU bootloader:
 
 1. unpack the source into LUFA's Bootloader directory
 2. set `ARDUINO_MODEL_PID` in the makefile as appropriate 
