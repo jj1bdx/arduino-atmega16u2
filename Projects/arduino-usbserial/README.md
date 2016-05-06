@@ -13,8 +13,8 @@ Check that the board enumerates as either "Arduino Uno" or "Arduino Mega 2560". 
 
 ## How to put ATmega8u2/16u2 into USB DFU mode
 
-a. assert and hold the 8U2's RESET line
-b. assert and hold the 8U2's HWB line
-c. release the 8U2's RESET line
-d. release the 8U2's HWB line
+1. assert and hold the 8U2's RESET line
+2. assert and hold the 8U2's HWB line
+3. release the 8U2's RESET line
+4. release the 8U2's HWB line
 
