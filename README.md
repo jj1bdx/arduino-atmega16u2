@@ -60,3 +60,7 @@ According to the LUFA documentation, this VID/PID combination is:
 The production version of the arduino-usbserial firmware uses the
 Arduino VID.  This is only for use with official Arduino hardware and
 should not be used on other products.
+
+## License
+
+MIT. See `LICENSE`.
