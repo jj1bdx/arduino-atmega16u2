@@ -12,9 +12,9 @@
     # USB serial firmware
     (cd Projects/arduino-usbserial && make clean && make)
 
-## Note wekk
+## Note very well
 
-* The LUFA version is 100807, as in the hardware-pinoccio repository.
+* The LUFA version is 100807, as in the hardware-pinoccio repository. This version is required for both DFU and USB serial firmware.
 
 ## References
 
